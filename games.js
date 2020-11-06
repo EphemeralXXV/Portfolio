@@ -1,5 +1,5 @@
 class Game {
-    constructor(title, series, genre, year, developer, platform, playtime, completion, satisfaction, gameplay) {
+    constructor(title, series, genre, year, developer, publisher, platform, playtime, completion, satisfaction, gameplay) {
         this.title = title;
         this.series = series;
         this.genre = genre;
@@ -14,7 +14,7 @@ class Game {
     }
 }
 
-let musicMania = new Game("! Music Mania !", , , , , , "WWW", , , , );
+let musicMania = new Game("! Music Mania !", , , , , , "WWW", , , );
 let amoC = new Game(".amoC", , , , , "WWW", , , , );
 let eighteenWoSALH = new Game("18 Wheels of Steel: American Long Haul", , , , , , "PC", , , , );
 let insane = new Game("1nsane", "Insane", "Racing", 2000, "Invictus", "Codemasters", "PC", , , , );
